@@ -1,0 +1,530 @@
+09-04-2023 22:26:55.627 [main] INFO  c.d.b.services.AnswerServiceTest.logStarting - Starting AnswerServiceTest using Java 19.0.2 with PID 4920 (started by GIFT in C:\final22\group22\backendServer)
+09-04-2023 22:26:55.631 [main] INFO  c.d.b.services.AnswerServiceTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-04-2023 22:26:56.924 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 22:26:56.927 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+09-04-2023 22:26:57.009 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.AnswerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:26:57.010 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.CommentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:26:57.011 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:26:57.013 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.QuestionRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:26:57.014 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.RegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:26:57.016 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.TagRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:26:57.017 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 79 ms. Found 0 JDBC repository interfaces.
+09-04-2023 22:26:57.041 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 22:26:57.043 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09-04-2023 22:26:57.121 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 70 ms. Found 6 JPA repository interfaces.
+09-04-2023 22:26:57.641 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09-04-2023 22:26:57.698 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+09-04-2023 22:26:58.038 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-04-2023 22:26:58.180 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+09-04-2023 22:26:58.479 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-04-2023 22:26:58.778 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+09-04-2023 22:26:59.093 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5103eea2
+09-04-2023 22:26:59.096 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+09-04-2023 22:26:59.160 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+09-04-2023 22:27:00.351 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-04-2023 22:27:00.366 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 22:27:01.428 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09-04-2023 22:27:02.301 [main] INFO  c.d.b.services.AnswerServiceTest.logStarted - Started AnswerServiceTest in 7.344 seconds (process running for 10.416)
+09-04-2023 22:27:02.969 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.LoginRepositoryTest]: LoginRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:27:02.981 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.LoginRepositoryTest
+09-04-2023 22:27:03.296 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 22:27:03.297 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 22:27:03.300 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-04-2023 22:27:03.444 [main] INFO  c.d.b.c.RegistrationController.userRegister - Request Object:com.dalstackoverflow.backendserver.models.Registration@3eb7ff78
+09-04-2023 22:27:03.453 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest]: RegistrationRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:27:03.456 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest
+09-04-2023 22:27:03.594 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.CommentServiceTest]: CommentServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:27:03.596 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.CommentServiceTest
+09-04-2023 22:27:03.636 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 22:27:03.637 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 22:27:03.651 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 0
+09-04-2023 22:27:03.652 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 22:27:03.660 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 22:27:03.661 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 22:27:03.662 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 22:27:03.662 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 22:27:03.690 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 22:27:03.691 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='username', password='password'}
+09-04-2023 22:27:03.702 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 22:27:03.702 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='invalidUsername', password='invalidPassword'}
+09-04-2023 22:27:03.716 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Calling comment Service
+09-04-2023 22:27:03.717 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Request Object:com.dalstackoverflow.backendserver.models.Comment@2e53f980
+09-04-2023 22:27:03.722 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest]: CommentRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:27:03.725 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest
+09-04-2023 22:27:03.761 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest]: AnswerRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:27:03.763 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest
+09-04-2023 22:27:03.806 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.LoginServiceTest]: LoginServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:27:03.808 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.LoginServiceTest
+09-04-2023 22:27:03.844 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 22:27:03.904 [main] INFO  c.d.b.services.QuestionServiceTest.testPostUserQuestion - Executing Test testPostUserQuestion
+09-04-2023 22:27:03.905 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Posting question for user : 1
+09-04-2023 22:27:03.906 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Logged question id:1
+09-04-2023 22:27:03.906 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Your question was successfully posted
+09-04-2023 22:27:03.911 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 22:27:03.915 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 22:27:03.919 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 22:27:03.920 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 22:27:03.920 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 22:27:03.921 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 22:27:03.922 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 22:27:03.922 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 22:27:03.923 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 22:27:03.923 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 22:27:03.925 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 22:27:03.925 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 22:27:03.926 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 22:27:03.926 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 22:27:03.934 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.controllers.QuestionControllerTest]: QuestionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:27:03.953 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.controllers.QuestionControllerTest
+09-04-2023 22:27:03.987 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 22:27:03.987 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 22:27:03.989 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+09-04-2023 22:27:04.006 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Calling Question Service
+09-04-2023 22:27:04.017 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Request Object:Question(questionID=0, userID=0, questionTitle=null, questionDescription=null, questionCode=null, questionDate=null, userName=null, tags=[], answerCount=0, allAnswers=null)
+09-04-2023 22:27:04.032 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 22:27:04.033 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 22:27:04.035 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-04-2023 22:27:04.037 [main] INFO  c.d.b.controllers.QuestionController.fetchTopUserQuestions - Fetching Top user Questions!!
+09-04-2023 22:27:04.227 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 22:27:04.231 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+09-04-2023 22:27:04.251 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+09-04-2023 22:34:39.356 [main] INFO  c.d.b.r.LoginRepositoryTest.logStarting - Starting LoginRepositoryTest using Java 19.0.2 with PID 16508 (started by GIFT in C:\final22\group22\backendServer)
+09-04-2023 22:34:39.359 [main] INFO  c.d.b.r.LoginRepositoryTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-04-2023 22:34:40.444 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 22:34:40.447 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+09-04-2023 22:34:40.508 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.AnswerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:34:40.509 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.CommentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:34:40.510 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:34:40.511 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.QuestionRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:34:40.512 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.RegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:34:40.512 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.TagRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 22:34:40.513 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 57 ms. Found 0 JDBC repository interfaces.
+09-04-2023 22:34:40.529 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 22:34:40.531 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09-04-2023 22:34:40.589 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 52 ms. Found 6 JPA repository interfaces.
+09-04-2023 22:34:41.051 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09-04-2023 22:34:41.111 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+09-04-2023 22:34:41.622 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-04-2023 22:34:41.823 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+09-04-2023 22:34:41.951 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-04-2023 22:34:42.380 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+09-04-2023 22:34:42.704 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5342eec5
+09-04-2023 22:34:42.708 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+09-04-2023 22:34:42.784 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+09-04-2023 22:34:43.801 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-04-2023 22:34:43.818 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 22:34:44.949 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09-04-2023 22:34:45.792 [main] INFO  c.d.b.r.LoginRepositoryTest.logStarted - Started LoginRepositoryTest in 7.164 seconds (process running for 10.804)
+09-04-2023 22:34:46.206 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest]: RegistrationRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:34:46.209 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest
+09-04-2023 22:34:46.310 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 22:34:46.311 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='username', password='password'}
+09-04-2023 22:34:46.333 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 22:34:46.334 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='invalidUsername', password='invalidPassword'}
+09-04-2023 22:34:46.370 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Calling comment Service
+09-04-2023 22:34:46.371 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Request Object:com.dalstackoverflow.backendserver.models.Comment@37f60cd4
+09-04-2023 22:34:46.385 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest]: CommentRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:34:46.388 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest
+09-04-2023 22:34:46.432 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest]: AnswerRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:34:46.436 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest
+09-04-2023 22:34:46.518 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.LoginServiceTest]: LoginServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:34:46.534 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.LoginServiceTest
+09-04-2023 22:34:46.572 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 22:34:46.619 [main] INFO  c.d.b.services.QuestionServiceTest.testPostUserQuestion - Executing Test testPostUserQuestion
+09-04-2023 22:34:46.620 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Posting question for user : 1
+09-04-2023 22:34:46.620 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Logged question id:1
+09-04-2023 22:34:46.621 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Your question was successfully posted
+09-04-2023 22:34:46.625 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 22:34:46.629 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 22:34:46.633 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 22:34:46.634 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 22:34:46.634 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 22:34:46.634 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 22:34:46.635 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 22:34:46.636 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 22:34:46.636 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 22:34:46.636 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 22:34:46.637 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 22:34:46.638 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 22:34:46.639 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 22:34:46.639 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 22:34:46.650 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.controllers.QuestionControllerTest]: QuestionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:34:46.673 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.controllers.QuestionControllerTest
+09-04-2023 22:34:46.768 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 22:34:46.769 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 22:34:46.774 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-04-2023 22:34:47.017 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Calling Question Service
+09-04-2023 22:34:47.050 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Request Object:Question(questionID=0, userID=0, questionTitle=null, questionDescription=null, questionCode=null, questionDate=null, userName=null, tags=[], answerCount=0, allAnswers=null)
+09-04-2023 22:34:47.077 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.BackendServerApplicationTests]: BackendServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:34:47.085 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.BackendServerApplicationTests
+09-04-2023 22:34:47.098 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.AnswerServiceTest]: AnswerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:34:47.101 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.AnswerServiceTest
+09-04-2023 22:34:47.227 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 22:34:47.227 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 22:34:47.228 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+09-04-2023 22:34:47.242 [main] INFO  c.d.b.c.RegistrationController.userRegister - Request Object:com.dalstackoverflow.backendserver.models.Registration@5529fd4e
+09-04-2023 22:34:47.298 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.CommentServiceTest]: CommentServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 22:34:47.301 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.CommentServiceTest
+09-04-2023 22:34:47.342 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 22:34:47.343 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 22:34:47.368 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 0
+09-04-2023 22:34:47.369 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 22:34:47.378 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 22:34:47.379 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 22:34:47.380 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 22:34:47.380 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 22:34:47.459 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 22:34:47.468 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+09-04-2023 22:34:47.554 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+09-04-2023 23:00:55.265 [main] INFO  c.d.b.r.LoginRepositoryTest.logStarting - Starting LoginRepositoryTest using Java 19.0.2 with PID 27016 (started by GIFT in C:\final22\group22\backendServer)
+09-04-2023 23:00:55.269 [main] INFO  c.d.b.r.LoginRepositoryTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-04-2023 23:00:56.351 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 23:00:56.357 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+09-04-2023 23:00:56.411 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.AnswerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:00:56.412 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.CommentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:00:56.413 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:00:56.414 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.QuestionRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:00:56.415 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.RegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:00:56.416 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.TagRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:00:56.417 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 49 ms. Found 0 JDBC repository interfaces.
+09-04-2023 23:00:56.436 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 23:00:56.438 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09-04-2023 23:00:56.506 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+09-04-2023 23:00:56.917 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09-04-2023 23:00:56.981 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+09-04-2023 23:00:57.317 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-04-2023 23:00:57.435 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+09-04-2023 23:00:57.512 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-04-2023 23:00:57.848 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+09-04-2023 23:00:58.211 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@186295cc
+09-04-2023 23:00:58.213 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+09-04-2023 23:00:58.271 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+09-04-2023 23:00:59.155 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-04-2023 23:00:59.170 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 23:01:00.078 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09-04-2023 23:01:00.799 [main] INFO  c.d.b.r.LoginRepositoryTest.logStarted - Started LoginRepositoryTest in 6.087 seconds (process running for 8.742)
+09-04-2023 23:01:01.139 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest]: RegistrationRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:01.141 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest
+09-04-2023 23:01:01.220 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 23:01:01.222 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='username', password='password'}
+09-04-2023 23:01:01.238 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 23:01:01.238 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='invalidUsername', password='invalidPassword'}
+09-04-2023 23:01:01.271 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Calling comment Service
+09-04-2023 23:01:01.272 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Request Object:com.dalstackoverflow.backendserver.models.Comment@3ed2a30c
+09-04-2023 23:01:01.283 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest]: CommentRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:01.284 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest
+09-04-2023 23:01:01.331 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest]: AnswerRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:01.332 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest
+09-04-2023 23:01:01.420 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.LoginServiceTest]: LoginServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:01.439 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.LoginServiceTest
+09-04-2023 23:01:01.472 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:01:01.507 [main] INFO  c.d.b.services.QuestionServiceTest.testPostUserQuestion - Executing Test testPostUserQuestion
+09-04-2023 23:01:01.509 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Posting question for user : 1
+09-04-2023 23:01:01.510 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Logged question id:1
+09-04-2023 23:01:01.511 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Your question was successfully posted
+09-04-2023 23:01:01.515 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:01:01.517 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:01:01.519 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 23:01:01.520 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:01:01.520 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 23:01:01.520 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:01:01.521 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 23:01:01.522 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:01:01.522 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 23:01:01.523 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:01:01.524 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 23:01:01.525 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:01:01.525 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 23:01:01.525 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:01:01.535 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.controllers.QuestionControllerTest]: QuestionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:01.544 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.controllers.QuestionControllerTest
+09-04-2023 23:01:01.606 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 23:01:01.606 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 23:01:01.608 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+09-04-2023 23:01:01.735 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Calling Question Service
+09-04-2023 23:01:01.745 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Request Object:Question(questionID=0, userID=0, questionTitle=null, questionDescription=null, questionCode=null, questionDate=null, userName=null, tags=[], answerCount=0, allAnswers=null)
+09-04-2023 23:01:01.761 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.BackendServerApplicationTests]: BackendServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:01.768 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.BackendServerApplicationTests
+09-04-2023 23:01:01.781 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.AnswerServiceTest]: AnswerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:01.783 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.AnswerServiceTest
+09-04-2023 23:01:01.839 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 23:01:01.839 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 23:01:01.840 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+09-04-2023 23:01:01.849 [main] INFO  c.d.b.c.RegistrationController.userRegister - Request Object:com.dalstackoverflow.backendserver.models.Registration@53ccbc15
+09-04-2023 23:01:01.880 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.CommentServiceTest]: CommentServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:01.882 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.CommentServiceTest
+09-04-2023 23:01:01.898 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:01:01.900 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:01:01.910 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 0
+09-04-2023 23:01:01.911 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:01:01.916 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:01:01.917 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:01:01.917 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:01:01.917 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:01:01.948 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 23:01:01.951 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+09-04-2023 23:01:01.974 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+09-04-2023 23:01:24.100 [main] INFO  c.d.b.r.LoginRepositoryTest.logStarting - Starting LoginRepositoryTest using Java 19.0.2 with PID 8960 (started by GIFT in C:\final22\group22\backendServer)
+09-04-2023 23:01:24.104 [main] INFO  c.d.b.r.LoginRepositoryTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-04-2023 23:01:25.482 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 23:01:25.485 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+09-04-2023 23:01:25.556 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.AnswerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:01:25.558 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.CommentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:01:25.560 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:01:25.561 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.QuestionRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:01:25.562 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.RegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:01:25.562 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.TagRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:01:25.565 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 67 ms. Found 0 JDBC repository interfaces.
+09-04-2023 23:01:25.589 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 23:01:25.591 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09-04-2023 23:01:25.680 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 77 ms. Found 6 JPA repository interfaces.
+09-04-2023 23:01:26.288 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09-04-2023 23:01:26.352 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+09-04-2023 23:01:26.711 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-04-2023 23:01:26.861 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+09-04-2023 23:01:26.954 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-04-2023 23:01:27.364 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+09-04-2023 23:01:27.776 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31b650e9
+09-04-2023 23:01:27.779 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+09-04-2023 23:01:27.862 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+09-04-2023 23:01:29.012 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-04-2023 23:01:29.028 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 23:01:30.162 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09-04-2023 23:01:31.073 [main] INFO  c.d.b.r.LoginRepositoryTest.logStarted - Started LoginRepositoryTest in 7.893 seconds (process running for 11.735)
+09-04-2023 23:01:31.455 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest]: RegistrationRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:31.458 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest
+09-04-2023 23:01:31.561 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 23:01:31.562 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='username', password='password'}
+09-04-2023 23:01:31.586 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 23:01:31.586 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='invalidUsername', password='invalidPassword'}
+09-04-2023 23:01:31.620 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Calling comment Service
+09-04-2023 23:01:31.620 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Request Object:com.dalstackoverflow.backendserver.models.Comment@36b86248
+09-04-2023 23:01:31.636 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest]: CommentRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:31.639 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest
+09-04-2023 23:01:31.674 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest]: AnswerRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:31.675 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest
+09-04-2023 23:01:31.746 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.LoginServiceTest]: LoginServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:31.758 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.LoginServiceTest
+09-04-2023 23:01:31.792 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:01:31.844 [main] INFO  c.d.b.services.QuestionServiceTest.testPostUserQuestion - Executing Test testPostUserQuestion
+09-04-2023 23:01:31.844 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Posting question for user : 1
+09-04-2023 23:01:31.845 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Logged question id:1
+09-04-2023 23:01:31.846 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Your question was successfully posted
+09-04-2023 23:01:31.850 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:01:31.854 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:01:31.858 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 23:01:31.859 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:01:31.859 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 23:01:31.859 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:01:31.860 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 23:01:31.862 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:01:31.862 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 23:01:31.862 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:01:31.863 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 23:01:31.864 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:01:31.864 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 23:01:31.864 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:01:31.875 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.controllers.QuestionControllerTest]: QuestionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:31.888 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.controllers.QuestionControllerTest
+09-04-2023 23:01:31.961 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 23:01:31.962 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 23:01:31.965 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-04-2023 23:01:32.136 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Calling Question Service
+09-04-2023 23:01:32.145 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Request Object:Question(questionID=0, userID=0, questionTitle=null, questionDescription=null, questionCode=null, questionDate=null, userName=null, tags=[], answerCount=0, allAnswers=null)
+09-04-2023 23:01:32.163 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.BackendServerApplicationTests]: BackendServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:32.169 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.BackendServerApplicationTests
+09-04-2023 23:01:32.178 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.AnswerServiceTest]: AnswerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:32.180 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.AnswerServiceTest
+09-04-2023 23:01:32.242 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 23:01:32.243 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 23:01:32.243 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+09-04-2023 23:01:32.251 [main] INFO  c.d.b.c.RegistrationController.userRegister - Request Object:com.dalstackoverflow.backendserver.models.Registration@236a6a2a
+09-04-2023 23:01:32.282 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.CommentServiceTest]: CommentServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:01:32.284 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.CommentServiceTest
+09-04-2023 23:01:32.299 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:01:32.300 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:01:32.311 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 0
+09-04-2023 23:01:32.312 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:01:32.315 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:01:32.316 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:01:32.317 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:01:32.317 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:01:32.349 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 23:01:32.352 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+09-04-2023 23:01:32.376 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+09-04-2023 23:26:30.413 [main] INFO  c.d.b.r.LoginRepositoryTest.logStarting - Starting LoginRepositoryTest using Java 19.0.2 with PID 26328 (started by GIFT in C:\final22\group22\backendServer)
+09-04-2023 23:26:30.416 [main] INFO  c.d.b.r.LoginRepositoryTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-04-2023 23:26:31.418 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 23:26:31.420 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+09-04-2023 23:26:31.485 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.AnswerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:31.486 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.CommentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:31.487 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:31.487 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.QuestionRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:31.488 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.RegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:31.489 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.TagRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:31.490 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 50 ms. Found 0 JDBC repository interfaces.
+09-04-2023 23:26:31.505 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 23:26:31.507 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09-04-2023 23:26:31.583 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 70 ms. Found 6 JPA repository interfaces.
+09-04-2023 23:26:32.067 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09-04-2023 23:26:32.133 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+09-04-2023 23:26:32.490 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-04-2023 23:26:32.602 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+09-04-2023 23:26:32.668 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-04-2023 23:26:33.018 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+09-04-2023 23:26:33.374 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@186295cc
+09-04-2023 23:26:33.383 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+09-04-2023 23:26:33.445 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+09-04-2023 23:26:34.297 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-04-2023 23:26:34.320 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 23:26:35.286 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09-04-2023 23:26:36.085 [main] INFO  c.d.b.r.LoginRepositoryTest.logStarted - Started LoginRepositoryTest in 6.296 seconds (process running for 9.179)
+09-04-2023 23:26:36.425 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest]: RegistrationRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:36.428 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest
+09-04-2023 23:26:36.512 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 23:26:36.513 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='username', password='password'}
+09-04-2023 23:26:36.536 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 23:26:36.536 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='invalidUsername', password='invalidPassword'}
+09-04-2023 23:26:36.565 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Calling comment Service
+09-04-2023 23:26:36.566 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Request Object:com.dalstackoverflow.backendserver.models.Comment@38568876
+09-04-2023 23:26:36.581 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest]: CommentRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:36.583 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest
+09-04-2023 23:26:36.615 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest]: AnswerRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:36.617 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest
+09-04-2023 23:26:36.678 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.LoginServiceTest]: LoginServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:36.689 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.LoginServiceTest
+09-04-2023 23:26:36.724 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:26:36.765 [main] INFO  c.d.b.services.QuestionServiceTest.testPostUserQuestion - Executing Test testPostUserQuestion
+09-04-2023 23:26:36.766 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Posting question for user : 1
+09-04-2023 23:26:36.767 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Logged question id:1
+09-04-2023 23:26:36.767 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Your question was successfully posted
+09-04-2023 23:26:36.770 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:26:36.772 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:26:36.774 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 23:26:36.777 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:26:36.777 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 23:26:36.777 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:26:36.777 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 23:26:36.778 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:26:36.778 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 23:26:36.778 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:26:36.779 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 23:26:36.779 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:26:36.780 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 23:26:36.780 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:26:36.787 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.controllers.QuestionControllerTest]: QuestionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:36.800 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.controllers.QuestionControllerTest
+09-04-2023 23:26:36.872 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 23:26:36.873 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 23:26:36.877 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-04-2023 23:26:37.013 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Calling Question Service
+09-04-2023 23:26:37.021 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Request Object:Question(questionID=0, userID=0, questionTitle=null, questionDescription=null, questionCode=null, questionDate=null, userName=null, tags=[], answerCount=0, allAnswers=null)
+09-04-2023 23:26:37.039 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.BackendServerApplicationTests]: BackendServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:37.044 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.BackendServerApplicationTests
+09-04-2023 23:26:37.051 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.AnswerServiceTest]: AnswerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:37.052 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.AnswerServiceTest
+09-04-2023 23:26:37.106 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 23:26:37.106 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 23:26:37.106 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+09-04-2023 23:26:37.117 [main] INFO  c.d.b.c.RegistrationController.userRegister - Request Object:com.dalstackoverflow.backendserver.models.Registration@59cbeaee
+09-04-2023 23:26:37.142 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.CommentServiceTest]: CommentServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:37.144 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.CommentServiceTest
+09-04-2023 23:26:37.156 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:26:37.156 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:26:37.171 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 0
+09-04-2023 23:26:37.171 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:26:37.177 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:26:37.178 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:26:37.178 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:26:37.179 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:26:37.206 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 23:26:37.209 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+09-04-2023 23:26:37.235 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+09-04-2023 23:26:48.010 [main] INFO  c.d.b.r.LoginRepositoryTest.logStarting - Starting LoginRepositoryTest using Java 19.0.2 with PID 21884 (started by GIFT in C:\final22\group22\backendServer)
+09-04-2023 23:26:48.021 [main] INFO  c.d.b.r.LoginRepositoryTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-04-2023 23:26:49.789 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 23:26:49.792 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+09-04-2023 23:26:49.869 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.AnswerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:49.870 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.CommentRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:49.871 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.LoginRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:49.872 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.QuestionRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:49.874 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.RegistrationRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:49.875 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.dalstackoverflow.backendserver.repositories.TagRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+09-04-2023 23:26:49.876 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 73 ms. Found 0 JDBC repository interfaces.
+09-04-2023 23:26:49.899 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode
+09-04-2023 23:26:49.901 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09-04-2023 23:26:49.975 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 64 ms. Found 6 JPA repository interfaces.
+09-04-2023 23:26:50.673 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09-04-2023 23:26:50.770 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+09-04-2023 23:26:51.269 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-04-2023 23:26:51.421 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.1.6.Final
+09-04-2023 23:26:51.502 [main] WARN  org.hibernate.orm.deprecation.lambda$new$1 - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-04-2023 23:26:51.952 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+09-04-2023 23:26:52.381 [main] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ad2883a
+09-04-2023 23:26:52.384 [main] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+09-04-2023 23:26:52.464 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+09-04-2023 23:26:53.700 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-04-2023 23:26:53.718 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 23:26:54.927 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09-04-2023 23:26:56.178 [main] INFO  c.d.b.r.LoginRepositoryTest.logStarted - Started LoginRepositoryTest in 9.412 seconds (process running for 14.334)
+09-04-2023 23:26:56.603 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest]: RegistrationRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:56.605 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.RegistrationRepositoryTest
+09-04-2023 23:26:56.702 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 23:26:56.703 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='username', password='password'}
+09-04-2023 23:26:56.729 [main] INFO  c.d.b.controllers.LoginController.loginUser - Calling Login Service
+09-04-2023 23:26:56.731 [main] INFO  c.d.b.controllers.LoginController.loginUser - Request Object:LoginRequest{username='invalidUsername', password='invalidPassword'}
+09-04-2023 23:26:56.782 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Calling comment Service
+09-04-2023 23:26:56.782 [main] INFO  c.d.b.controllers.CommentController.postAnswerComment - Request Object:com.dalstackoverflow.backendserver.models.Comment@3e60be48
+09-04-2023 23:26:56.803 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest]: CommentRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:56.806 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.CommentRepositoryTest
+09-04-2023 23:26:56.864 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest]: AnswerRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:56.867 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.repositories.AnswerRepositoryTest
+09-04-2023 23:26:56.976 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.LoginServiceTest]: LoginServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:57.000 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.LoginServiceTest
+09-04-2023 23:26:57.055 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:26:57.144 [main] INFO  c.d.b.services.QuestionServiceTest.testPostUserQuestion - Executing Test testPostUserQuestion
+09-04-2023 23:26:57.145 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Posting question for user : 1
+09-04-2023 23:26:57.147 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Logged question id:1
+09-04-2023 23:26:57.147 [main] INFO  c.d.b.services.QuestionService.postUserQuestion - Your question was successfully posted
+09-04-2023 23:26:57.150 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:26:57.159 [main] INFO  c.d.b.services.QuestionServiceTest.setUp - Setting up dummy mock object and initializing mock repositories
+09-04-2023 23:26:57.163 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 23:26:57.164 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:26:57.164 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :1
+09-04-2023 23:26:57.165 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:26:57.166 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 23:26:57.167 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:26:57.167 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :2
+09-04-2023 23:26:57.167 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:26:57.168 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 23:26:57.168 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Java
+09-04-2023 23:26:57.169 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Question id :3
+09-04-2023 23:26:57.169 [main] INFO  c.d.b.services.QuestionService.fetchTopQuestion - Found tag :Spring
+09-04-2023 23:26:57.180 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.controllers.QuestionControllerTest]: QuestionControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:57.206 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.controllers.QuestionControllerTest
+09-04-2023 23:26:57.358 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 23:26:57.359 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 23:26:57.365 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-04-2023 23:26:57.626 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Calling Question Service
+09-04-2023 23:26:57.638 [main] INFO  c.d.b.controllers.QuestionController.postUserQuestion - Request Object:Question(questionID=0, userID=0, questionTitle=null, questionDescription=null, questionCode=null, questionDate=null, userName=null, tags=[], answerCount=0, allAnswers=null)
+09-04-2023 23:26:57.665 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.BackendServerApplicationTests]: BackendServerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:57.670 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.BackendServerApplicationTests
+09-04-2023 23:26:57.684 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.AnswerServiceTest]: AnswerServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:57.688 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.AnswerServiceTest
+09-04-2023 23:26:57.749 [main] INFO  o.s.mock.web.MockServletContext.log - Initializing Spring TestDispatcherServlet ''
+09-04-2023 23:26:57.749 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+09-04-2023 23:26:57.750 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 0 ms
+09-04-2023 23:26:57.760 [main] INFO  c.d.b.c.RegistrationController.userRegister - Request Object:com.dalstackoverflow.backendserver.models.Registration@73fa97a9
+09-04-2023 23:26:57.797 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.dalstackoverflow.backendserver.services.CommentServiceTest]: CommentServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09-04-2023 23:26:57.799 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.dalstackoverflow.backendserver.BackendServerApplication for test class com.dalstackoverflow.backendserver.services.CommentServiceTest
+09-04-2023 23:26:57.816 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:26:57.816 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:26:57.828 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 0
+09-04-2023 23:26:57.829 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:26:57.834 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:26:57.835 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:26:57.836 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Posting comment for answer : 1
+09-04-2023 23:26:57.836 [main] INFO  c.d.b.services.CommentService.postAnswerComment - Your comment was successfully posted
+09-04-2023 23:26:57.871 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+09-04-2023 23:26:57.876 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+09-04-2023 23:26:57.902 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
